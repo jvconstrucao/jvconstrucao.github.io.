@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="UTF-8" />
+	 <title> J V construcoes </title>
+      <meta name="author" content="Mayckon Oliveira" />
+      <meta name="reply-to" content="olivermayckongby@gmail.com" />
+      <meta name="description" content="centro estetico metamorfose e cia - salao de beleza - cursos de cabeleireira" />
+      <meta name="keywords" content="masagem modeladora, salao de beleza, metamorfose e cia, quimica, manicure, centro estetico, cursos de cabeleireira" />
+      <meta name="viewport" content="width=device-width, height=device-height,minimum-scale=1,initial-scale=1, maximum-scale=1, user-scalable=no" />
+      <link href = "https: //fonts.googleapis.com/css2? family = Otomanopee + One & display = swap "rel =" stylesheet " />
+         
+<style type="text/css">
+		  
+body{
+    font-family: Otomanopee, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+	overflow-x: hidden;
+}
+.menu-area{
+    width: 100%;
+	height: 120px;
+	background-color: #aaa;
+	border: 4px solid #ccc;
+}
+
+	
+.logo{
+	font-weight: bold;
+	position: absolute;
+	width: 30%;
+	height: 70px;
+	margin: 20px;
+	color: white;
+	text-align: center;
+	font-size: 190%;
+	letter-spacing: .4rem;
+	text-shadow: black 0.2em 0.2em 0.10em;
+}
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul, .menu li{
+    list-style: none;
+}
+
+.menu ul{
+    display: flex;
+}
+.menu li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+   margin-right:20px;
+    display: block;
+	padding-top:30px;
+    padding-left: 5px;
+    padding-right: 50px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+ 
+}
+.menu li a:hover, 
+.menu  .active a{
+    border-bottom: 5px solid rgb(210, 247, 4);
+    color: rgb(210, 247, 4);
+}
+.banner{
+	background-image: url("jv2.jpg");
+	border: 4px solid #ccc;
+	width:100%;
+	height: calc(100vh - 120px);
+	background-image: cover;
+	background-size: 100%;
+	background-position: center;
+}
+.banner .banner-slide{
+	width:100%;
+	height: calc(100vh - 120px);
+	background-size: 100%;
+	background-color: rgba(10, 10, 10, 0.644);
+}
+.banner-text{
+	margin-top: 5%;
+	margin-left: 5%;
+	position: absolute;
+	color: #ccc;
+    width: 90%;
+	height: 50%;
+	text-align: justify;
+	border-right: 4px solid #ccc;
+	font-size: 20px;
+	padding:15px;
+}
+.rodape{
+	background-color: rgba(10, 10, 10, 0.344);
+	width: 100%;
+	height: 70px;
+}
+.rodape-area{
+	width: 100%;
+	height: 70px;
+	background-image: url("tijolos.png");
+	background-size:50%;
+	border: 4px solid #ccc;
+}
+.rodape-producao{
+	margin-top: 1%;
+	margin-left: 25%;
+	position: absolute;
+	color: #ccc;
+    width: 50%;
+	text-align: center;
+	font-size: 15px;
+	padding:15px;
+	text-shadow: black 0em 0.1em  0.1em;
+}
+
+
+@media (min-width:450px) and (max-width:850px){
+
+.logo{
+	font-weight: bold;
+	position: absolute;
+	width: 20%;
+	height: 40px;
+	margin: 10px;
+	color: white;
+	text-align: center;
+	font-size: 170%;
+	letter-spacing: .3rem;
+	text-shadow: black 0.2em 0.2em 0.10em;
+}
+.menu li a {
+   margin-right:10px;
+    padding-left: 2px;
+    padding-right: 30px;
+    height: 120px;
+}
+.banner{
+	width:100%;
+	height: 100%;
+}
+
+.banner-text{
+	margin-top: 8%;
+	margin-left: 2%;
+    width: 80%;
+	height: 20%;
+	font-size: 12px;
+	padding:10px;
+}
+.banner .banner-slide{
+	width:100%;
+	height: 320px;
+}
+
+}
+
+
+
+
+@media (min-width:150px) and (max-width:450px){
+.logo{
+	width: 15%;
+	height: 40px;
+	margin: 10px;
+	text-align: center;
+	font-size: 100%;
+}
+
+.menu li a {
+    font-weight: bolder;
+   margin-right:2px;
+	padding-top:30px;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+.banner{
+	width:100%;
+	height: 410px;
+}
+
+.banner-text{
+	margin-top: 8%;
+	margin-left: 5%;
+    width: 75%;
+	height: 45%;
+	font-size: 12px;
+	padding:10px;
+}
+.banner .banner-slide{
+	width:100%;
+	height: 410px;
+}
+	
+.rodape-area{
+	height: 70px;
+	background-image: url("tijolos.png");
+	background-size:20%;
+	border: 4px solid #ccc;
+}
+.rodape-producao{
+	margin-left: 15%;
+	position: absolute;
+	color: #ccc;
+    width: 60%;
+	text-align: center;
+	font-size: 12px;
+	padding:12px;
+	text-shadow: black 0.1em 0.1em  0.1em;
+}
+
+}
+
+</style>
+	
+</head>
+<body>
+    <header>
+        <div class="menu-area">
+			<div class="logo">
+			      J V <br> CONSTRUCOES
+			</div> 
+			<div class="menu">    			
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">INICIO</a>
+                        </li>
+                        <li>
+                            <a href="servicos.html">SERVICOS</a>
+                        </li>
+                        <li>
+                           <a href="fotos.html">FOTOS</a>
+                        </li>
+						 <li>
+                           <a href="contato.html">CONTATO</a>
+                        </li>    
+                    </ul>
+                </nav>				
+			</div>
+		</div>
+    </header>
+	<section>
+	    <div class="banner">
+	        <div class="banner-slide">
+		        <div class="banner-text">
+			       Oi, nós somos a <B>J.V CONSTRUCOES !</B><br>
+                   Nós gostamos de sonhar alto – e temos feito isso desde que a nossa história começou.<br>
+				   A mais de 25 anos na área da construção civil, fazendo obras com qualidade para total satisfação dos nossos clientes. <br>
+				   Como somos completamente apaixonados pelo trabalho que realizamos, fazemos todo o possível para vender apenas produtos da mais alta qualidade.<br>
+                   <br>
+				   VISAO
+				   <br>
+				   ser uma referência confiável e comprometida com os sonhos de nossos clientes, fazendo com que a empresa seja reconhecida no mercado local.<br>
+				   <br>
+				   MISSAO
+				   <br>
+				   Melhoria continua em nossos processos, buscando sempre a satisfação plena dos nossos clientes.<br>
+			    </div>
+		    </div>
+		</div>		
+	</section>
+	<section>
+	    <div class="rodape-area">
+		    <div class="rodape">
+			    <div class="rodape-producao">
+			      DESENVOLVIDO POR: olivermayckongby@gmail.com
+			    </div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
